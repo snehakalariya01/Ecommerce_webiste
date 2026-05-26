@@ -24,7 +24,7 @@ npm install
 ```
 # backend
 cd backend
-npm run dev # or npm start
+npm run dev # or npm run start
 
 # frontend
 cd frontend
@@ -42,6 +42,4 @@ git remote add origin <YOUR_REMOTE_URL>
 git push -u origin main
 ```
 
-Notes:
-- Choose a license in `LICENSE` or replace it with your preferred license.
-- CI is configured via `.github/workflows/ci.yml` to run installs/builds for `backend` and `frontend`.
+
