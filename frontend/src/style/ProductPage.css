@@ -1,0 +1,24 @@
+/* MAIN PAGE */
+.product-page {
+  padding: 30px;
+  background-color: #f5f7fb;
+  min-height: 100vh;
+}
+
+/* PAGE TITLE */
+.product-page h1 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* PRODUCT GRID */
+.product-grid {
+  display: grid;
+
+  /* RESPONSIVE GRID */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 25px;
+}
